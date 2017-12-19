@@ -1,7 +1,7 @@
 var playlist ={"Kanye" : "Gold Digger"}
 
 function updatePlaylist(plist, artist, song){
-  plist.artist =song;
+  plist[artist] =song;
   return plist;
 }
 
